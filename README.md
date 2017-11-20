@@ -1,2 +1,2 @@
 # spring_data_project
-spring data project
+spring data project jdbc
