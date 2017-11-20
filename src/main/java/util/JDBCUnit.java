@@ -16,7 +16,7 @@ public class JDBCUnit {
     public static Connection getConnection() throws Exception{
 
         String driverClass = "com.mysql.jdbc.Driver";
-        String url = "jdbc://mysql:///spring_data";
+        String url = "jdbc:mysql://localhost:3306/spring_data";
         String userName = "root";
         String passWord = "root";
         Class.forName(driverClass);

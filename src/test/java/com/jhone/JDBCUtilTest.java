@@ -1,5 +1,8 @@
 package com.jhone;
 
+import org.junit.Test;
+import util.JDBCUnit;
+
 /**
  * @Author jhone
  * @Description:
@@ -8,5 +11,8 @@ package com.jhone;
  */
 public class JDBCUtilTest {
 
-
+    @Test
+    public void testJDBC() throws  Exception{
+        System.out.println(JDBCUnit.getConnection());
+    }
 }
