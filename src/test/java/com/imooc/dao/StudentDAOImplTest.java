@@ -15,6 +15,7 @@ public class StudentDAOImplTest {
         List<Student> students = studentDAO.query();
 
         for (Student student : students) {
+
             System.out.println("id:" + student.getId()
                     + " , name:" + student.getName()
                     + ", age:" + student.getAge());
